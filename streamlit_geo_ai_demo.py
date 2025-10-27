@@ -380,5 +380,7 @@ with tabs[4]:
     st.code("pip install -r requirements.txt\nexport MODEL_NAME=path_or_model_id\nstreamlit run streamlit_geo_ai_demo.py")
 
 # End of app
+if __name__ == "__main__":
+    main()
 
 """
